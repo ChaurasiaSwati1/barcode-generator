@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>QR Generator || Swati Chaurasia</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <main>
+                <header>
+                    <h1>Generate QR Code</h1>
+                    <input type="text" id="codeInput" placeholder="Please enter the text or URL"/>
+                    <div class="selectDiv">
+                        <label>Select Sizes :</label>
+                        <select id="codeSelect">
+                            <option value="100">100 &#xD7; 100</option>
+                            <option value="200">200 &#xD7; 200</option>
+                            <option value="300">300 &#xD7; 300</option>
+                            <option value="400">400 &#xD7; 400</option>
+                            <!-- <option value="500">500 &#xD7; 500</option>
+                            <option value="600">600 &#xD7; 600</option>
+                            <option value="700">700 &#xD7; 700</option>
+                            <option value="800">800 &#xD7; 800</option>
+                            <option value="900">900 &#xD7; 900</option>
+                            <option value="1000">1000 &#xD7; 1000</option> -->
+                        </select>
+                    </div>
+
+                </header>
+                <section>
+                        <div class="codeBody" id="codeBody">
+
+                        </div>
+                </section>
+                <footer>
+                    <a href="" id="codeGBtn">Generate</a>
+                    <a href="" id="codeDBtn" download="QR_Code.png">Download</a>
+                </footer>
+        </main>
+        
+        <script src="assets/js/script.js" async defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    </body>
+</html>
