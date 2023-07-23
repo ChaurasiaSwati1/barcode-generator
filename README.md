@@ -1,0 +1,1 @@
+# scanecode-generator
